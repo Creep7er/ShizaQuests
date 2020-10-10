@@ -1,0 +1,120 @@
+
+/*Задний фон*/
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+}
+/*Здесь атрибуты для всего сайта*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Хидер*/
+  header {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  /*Меню в хидере*/
+  ul li {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: -50px;
+  }
+/*Ссылки*/
+  A {
+    color: rgb(255, 210, 210); /* Цвет ссылок */
+    text-decoration: none;
+   }
+   A:hover {
+    color: rgb(71, 104, 255) /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color:  rgb(38, 108, 121) /* Цвет активных ссылок */
+   }
+
+/*Размер Текста*/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+  margin: 0;
+}
+/*Кнопкав середине*/
+button[name="run_script"] { 
+  border: none;
+  border-radius: 100px;
+  padding: 10px 25px;
+  background: #0A28D1;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  height: 80px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+button[name="run_script"]:hover { 
+  background: #003EE8;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 25px;
+} 
+button[name="run_script"]:active {
+  background: #002999;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 25px;
+}
+/*Убрать рамку вокруг кнопки при нажатии*/
+button,
+button:active,
+button:focus {
+outline: none !important;
+}
+/*Контэйнер для кнопки и надписи в середке*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Absolute-Center 
+{
+  margin: 275px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+/*Футер*/
+#footer {
+  position: fixed; /* Фиксированное положение */
+  bottom: 0px; /* Левый нижний угол */
+  padding: 50px; /* Поля вокруг текста */
+  color: #fff; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+  
+  height: 110px;
+ }
+.center {
+  text-align: unset;
+  padding-left: 39%;
+}
+
+.center-text {
+  text-align: unset;
+  padding-left: 35%;
+}
+

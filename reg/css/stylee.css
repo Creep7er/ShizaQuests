@@ -1,0 +1,71 @@
+
+/*Задний фон*/
+body {
+    background-image: url("../img/bg.png");
+    background-size: cover;
+}
+/*Здесь атрибуты для всего сайта*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Block {
+  width: 355px;
+  height: 425px;
+  margin: 0;
+  background: #007272;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+input[type=text], input[type=password] {
+  width: 300px;
+  padding: 15px 0px 15px 0;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 15px;
+  margin: 15px 25px;
+  text-align: center;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #0400ff;
+  color: white;
+  padding: 16px 20px;
+  margin: 15px 25px 0 25px;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  opacity: 0.9;
+  border-radius: 25px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: center;
+}
