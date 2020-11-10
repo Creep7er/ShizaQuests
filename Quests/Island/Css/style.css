@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../img/bc.png");
+}
+
+.Block {
+    width: 900px;
+    height: 600px;
+    margin: 10;
+    padding: 10px;
+    background: #002aff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+
+.Cnop {
+  background-color: #f0ff00;
+  color: white;
+  padding: 35px 20px;
+  margin: 125px 30px -120px 40px;
+  border: none;
+  cursor: pointer;
+  width: 370px;
+  opacity: 0.9;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
